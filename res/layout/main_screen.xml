@@ -40,4 +40,11 @@
         android:layout_height="wrap_content"
         android:text="@string/button_text_3"/>
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_marginTop="30dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_4"/>
+
 </LinearLayout>

@@ -17,6 +17,7 @@ public class MainScreenActivity extends Activity implements OnClickListener{
 		findViewById(R.id.button1).setOnClickListener(this);
 		findViewById(R.id.button2).setOnClickListener(this);
 		findViewById(R.id.button3).setOnClickListener(this);
+		findViewById(R.id.button4).setOnClickListener(this);
 	}
 
 	@Override
@@ -37,6 +38,9 @@ public class MainScreenActivity extends Activity implements OnClickListener{
 				break;
 			case R.id.button3:
 				Toast.makeText(this, "button click 3", Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.button4:
+				Toast.makeText(this, "button click 4", Toast.LENGTH_SHORT).show();
 				break;
 		}
 	}
