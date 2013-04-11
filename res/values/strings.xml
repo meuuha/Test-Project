@@ -4,6 +4,7 @@
     <string name="app_name">TestProject</string>
     <string name="hello_world">Hello world! Test Project</string>
     <string name="menu_settings">Settings</string>
-    <string name="button_text">feature button</string>
+    <string name="button_text_1">feature button 1</string>
+    <string name="button_text_2">feature button 2</string>
 
 </resources>

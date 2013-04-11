@@ -9,14 +9,13 @@ import android.widget.Toast;
 
 public class MainScreenActivity extends Activity implements OnClickListener{
 	
-	//DEVELOP BRANCH
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_screen);
 		
-		findViewById(R.id.button).setOnClickListener(this);
+		findViewById(R.id.button1).setOnClickListener(this);
+		findViewById(R.id.button2).setOnClickListener(this);
 	}
 
 	@Override
@@ -29,8 +28,11 @@ public class MainScreenActivity extends Activity implements OnClickListener{
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
-			case R.id.button:
-				Toast.makeText(this, "button click", Toast.LENGTH_SHORT).show();
+			case R.id.button1:
+				Toast.makeText(this, "button click 1", Toast.LENGTH_SHORT).show();
+				break;
+			case R.id.button2:
+				Toast.makeText(this, "button click 2", Toast.LENGTH_SHORT).show();
 				break;
 		}
 	}
