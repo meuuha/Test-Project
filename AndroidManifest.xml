@@ -22,6 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name="com.meuuha.testproject.feature2.Feature2Activity"
+            android:label="@string/feature2_title" >
+        </activity>
     </application>
 
 </manifest>
