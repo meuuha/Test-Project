@@ -22,6 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name="com.meuuha.testproject.feature4.Feature4Activity"
+            android:label="@string/feature4_text" >
+        </activity>
     </application>
 
 </manifest>

@@ -8,5 +8,8 @@
     <string name="button_text_2">feature button 2</string>
     <string name="button_text_3">feature button 3</string>
     <string name="button_text_4">feature button 4</string>
+    
+<!--     FEATURE 4 SCREEN -->
+    <string name="feature4_text">feature 4</string>
 
 </resources>
