@@ -10,6 +10,8 @@ import com.meuuha.testproject.R;
 
 public class Feature1Activity extends Activity implements OnClickListener{
 	
+	//DEVELOP BRANCH
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
