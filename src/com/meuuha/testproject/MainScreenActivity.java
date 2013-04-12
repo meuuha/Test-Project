@@ -1,6 +1,9 @@
 package com.meuuha.testproject;
 
+import com.meuuha.testproject.feature1.Feature1Activity;
+
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -31,7 +34,7 @@ public class MainScreenActivity extends Activity implements OnClickListener{
 	public void onClick(View v) {
 		switch (v.getId()) {
 			case R.id.button1:
-				Toast.makeText(this, "button click 1", Toast.LENGTH_SHORT).show();
+				startActivity(new Intent(this, Feature1Activity.class));
 				break;
 			case R.id.button2:
 				Toast.makeText(this, "button click 2", Toast.LENGTH_SHORT).show();
