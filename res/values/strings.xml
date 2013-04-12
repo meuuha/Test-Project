@@ -12,4 +12,7 @@
 <!--     FEATURE 1 SCREEN -->
     <string name="feature1_text">feature 1 screen</string>
 
+<!--     FEATURE 3 SCREEN -->
+    <string name="feature3_text">feature 3</string>
+
 </resources>
